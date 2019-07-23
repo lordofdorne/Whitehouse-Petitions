@@ -12,6 +12,8 @@
 		846725E222E65AFF007A1936 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 846725E022E65AFF007A1936 /* Main.storyboard */; };
 		846725E422E65AFF007A1936 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 846725E322E65AFF007A1936 /* Assets.xcassets */; };
 		846725E722E65AFF007A1936 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 846725E522E65AFF007A1936 /* LaunchScreen.storyboard */; };
+		846725EF22E66D4D007A1936 /* Petition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846725EE22E66D4D007A1936 /* Petition.swift */; };
+		846725F122E66E82007A1936 /* Petitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846725F022E66E82007A1936 /* Petitions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		846725E322E65AFF007A1936 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		846725E622E65AFF007A1936 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		846725E822E65B00007A1936 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		846725EE22E66D4D007A1936 /* Petition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Petition.swift; sourceTree = "<group>"; };
+		846725F022E66E82007A1936 /* Petitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Petitions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				846725DC22E65AFF007A1936 /* AppDelegate.swift */,
 				846725DE22E65AFF007A1936 /* ViewController.swift */,
+				846725EE22E66D4D007A1936 /* Petition.swift */,
+				846725F022E66E82007A1936 /* Petitions.swift */,
 				846725E022E65AFF007A1936 /* Main.storyboard */,
 				846725E322E65AFF007A1936 /* Assets.xcassets */,
 				846725E522E65AFF007A1936 /* LaunchScreen.storyboard */,
@@ -136,7 +142,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				846725DF22E65AFF007A1936 /* ViewController.swift in Sources */,
+				846725F122E66E82007A1936 /* Petitions.swift in Sources */,
 				846725DD22E65AFF007A1936 /* AppDelegate.swift in Sources */,
+				846725EF22E66D4D007A1936 /* Petition.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
